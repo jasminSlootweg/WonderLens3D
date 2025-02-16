@@ -686,6 +686,52 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &1196191029
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1196191031}
+  - component: {fileID: 1196191030}
+  m_Layer: 0
+  m_Name: CharacterManagerController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1196191030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1196191029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a14bf238800b9345a6f7a99e16b4da6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterPrefab: {fileID: 0}
+  backgroundSprite: {fileID: 0}
+--- !u!4 &1196191031
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1196191029}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 455.50067, y: 209.34224, z: 0.23759}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!224 &1285300015 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6839694365462167943, guid: 62ed629b853dce4468e8ece06eee9418, type: 3}
@@ -709,6 +755,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterPrefab: {fileID: 1978997026}
+  backgroundSprite: {fileID: 21300000, guid: 0a5e4eb886ff72f43ab1dbbd0f98ac08, type: 3}
 --- !u!1 &2076317355 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9076783461399124517, guid: 46f073718915bb940811c6d18e83e8b5, type: 3}
@@ -727,6 +774,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterPrefab: {fileID: 2076317355}
+  backgroundSprite: {fileID: 21300000, guid: 2a18ca684e3b4cf409545b6f3d4456d6, type: 3}
 --- !u!1001 &1347555582655795065
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -871,6 +919,10 @@ PrefabInstance:
       propertyPath: characterPrefab
       value: 
       objectReference: {fileID: 611088784}
+    - target: {fileID: 5826638319969463890, guid: 21ff5964df72e2b4eb1539728e43915c, type: 3}
+      propertyPath: backgroundSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 84167e8f3c89c604680a41491d46b998, type: 3}
     - target: {fileID: 8226298930339323831, guid: 21ff5964df72e2b4eb1539728e43915c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1096,3 +1148,4 @@ SceneRoots:
   - {fileID: 737603569}
   - {fileID: 1168323179}
   - {fileID: 357467000}
+  - {fileID: 1196191031}
