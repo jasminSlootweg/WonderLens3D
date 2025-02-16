@@ -16,7 +16,6 @@ public class SpellingGame : MonoBehaviour
     // Sample sentences for the story
     private string[][] storySentences = new string[][]
     {
-        new string[] { "Little Red Riding Hood" },
         new string[] { "Once upon a time there was a girl called Little Red Riding Hood.", "She lived with her mother in a village near a forest." },
         new string[] { "One day, Little Red Riding Hood went to visit her grandmother.", "She took a basket of food with her." },
         new string[] { "On her way, Little Red Riding Hood met a wolf.", "\"Hello,\" said the wolf.", "\"Where are you going?\"", "\"I'm going to visit my grandmother who lives in the forest,\" explained Little Red Riding Hood." },
