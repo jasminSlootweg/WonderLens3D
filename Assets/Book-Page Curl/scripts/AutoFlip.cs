@@ -123,6 +123,3 @@ public class AutoFlip : MonoBehaviour {
         ControledBook.ReleasePage();
     }
 }
-//The implementation is based on this article:http://rbarraza.com/html5-canvas-pageflip/
-//As the rbarraza.com website is not live anymore you can get an archived version from web archive 
-//or check an archived version that I uploaded on my website: https://dandarawy.com/html5-canvas-pageflip/

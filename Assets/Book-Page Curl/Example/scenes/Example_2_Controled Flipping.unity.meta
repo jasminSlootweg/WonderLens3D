@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: dc6c73ce77f01475ea5e0c245b7ab412
+timeCreated: 1456186161
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 55588
+  packageName: Book - Page Curl
+  packageVersion: 1.1
+  assetPath: Assets/Book-Page Curl/Example/scenes/Example_2_Controled Flipping.unity
+  uploadId: 417589
