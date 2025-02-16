@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 243758501}
   - component: {fileID: 243758500}
   - component: {fileID: 243758499}
+  - component: {fileID: 243758502}
   m_Layer: 5
   m_Name: Book1
   m_TagString: Untagged
@@ -200,7 +201,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 243758500}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 243758502}
+        m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: RedRidingHood
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &243758500
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -239,6 +252,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 243758497}
   m_CullTransparentMesh: 1
+--- !u!114 &243758502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 243758497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28d1215aa18f8534c9f837a770e1089b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &378574882
 GameObject:
   m_ObjectHideFlags: 0
@@ -376,7 +401,7 @@ MonoBehaviour:
   m_StartCorner: 0
   m_StartAxis: 0
   m_CellSize: {x: 640, y: 360}
-  m_Spacing: {x: 0, y: 0}
+  m_Spacing: {x: 35, y: 0}
   m_Constraint: 2
   m_ConstraintCount: 1
 --- !u!1 &750118986
@@ -1705,7 +1730,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   layoutGroupWarning: 
   layoutType: 1
-  pageSize: 640
+  pageSize: 675
   swipeThreshold: 0.2
   snapSpeed: 8
   nextButton: {fileID: 1950000660}
@@ -1721,8 +1746,8 @@ MonoBehaviour:
   activeDotSize: {x: 20, y: 10}
   inactiveDotSize: {x: 10, y: 10}
   dotScalingSpeed: 5
-  maxRotationAngle: 0
-  rotationSpeed: 0
+  maxRotationAngle: 45
+  rotationSpeed: 5
   infiniteLooping: 1
   totalPages: 0
   currentIndex: 0

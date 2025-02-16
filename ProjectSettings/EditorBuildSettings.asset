@@ -5,9 +5,21 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/RedRidingHoodScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/MainMenuLogin.unity
+    guid: 7f7c9c3e0cb7344a5b1e0795dad658cd
+  - enabled: 1
+    path: Assets/Scenes/ChooseInitialCharacter.unity
+    guid: c2e2eb9f7a5724fd3b7d1af434de12f7
+  - enabled: 1
+    path: Assets/Scenes/BookCarousel.unity
+    guid: 7014537f457224e05809060e1a6b1ca1
+  - enabled: 1
+    path: Assets/Scenes/RedRidingHood.unity
+    guid: d3f5912676a6d8b4fa852d1305cd3814
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
